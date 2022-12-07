@@ -20,5 +20,5 @@ def detect_marker(input, marker_len):
 
 
 if __name__ == "__main__":
-    with open('input.txt') as input_file:
+    with open('example_input.txt') as input_file:
         print(detect_marker(input_file.read(), 14))
